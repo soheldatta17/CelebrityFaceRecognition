@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-wrapper {
+  margin: 20px 0;
+  transition: transform 0.2s ease;
+}
+
+.card-wrapper:hover {
+  transform: scale(1.05);
+}
+
+.custom-circle-image {
+  width: 10vw;
+  height: 10vw;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.dropzone {
+  border: 2px dashed #007bff;
+  background-color: #e9ecef;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+}
+
+.dropzone .dz-message {
+  color: #007bff;
+}
+
+#submitBtn {
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+.error {
+  font-size: 1.3rem;
+  color: red;
+  display: none; /* Hidden by default, can be displayed conditionally */
+  font-weight: bold;
+}
+
+#classTable {
+  margin-top: 20px;
+}
+
+#classTable th {
+  background-color: #007bff;
+  color: white;
+}
