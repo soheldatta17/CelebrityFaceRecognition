@@ -20,7 +20,7 @@ function init() {
 
     dz.on("complete", function(file) {
 
-        let url = "http://127.0.0.1:5000/classify_image";
+        let url = "https://celebrityfacerecognitionbackend.onrender.com/classify_image";
     
         $.post(url, {
             image_data: file.dataURL
